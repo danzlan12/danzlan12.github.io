@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel='shortcut icon' type='image/x-icon' href='image/Dzerdd.png' />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <title>GALAXY WEB</title>
+</head>
+
+<body class= "body night-mode-available">
+    <header class="header night-mode-available">
+        <center><img class="logo" src="image/galaxy.jpg" alt="logo"></center>
+     <nav class="nav night-mode-available">
+            <a href="#" id="pull">Menu</a>
+        <ul class="clearfix">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="profil.html">PROFIL</a></li>
+            <li><a href="list.html">LIST</a></li>
+            
+        </ul>
+                <div class="night-mode-button">
+                    <input type="checkbox" class="checkbox" id="night-mode">
+                    <label for="night-mode" class="label">
+                        <i class="gelap"></i>
+                        <i class="terang"></i>
+                        <div class="blob"></div>
+                    </label>
+                </div>
+            <script>
+                document.querySelector('.checkbox').addEventListener('change', () => {
+                    document.querySelectorAll('.night-mode-available').forEach(ele => {
+                        ele.classList.toggle('night');
+                    })
+                });
+            </script>
+        </nav>
+        
+    </header>
+    <section>
+        <div class="kiri night-mode-available">
+            <ul>
+                <p class="kategori night-mode-available">Kategori</p>
+                <ul>
+                    <li><a href="https://id.wikipedia.org/wiki/Objek_astronomi">Objek Angkasa</a></li>
+                    <br>
+                    <li><a href="https://bjn.wikipedia.org/wiki/Tata_Surya">Tata Surya</a></li>
+                    <br>
+                    <li><a href="https://id.wikipedia.org/wiki/Galaksi">Galaksi</a></li>
+                    <br>
+                    <li><a href="https://id.wikipedia.org/wiki/Supergugus">Supergugus</a></li>
+                    <br>
+                    <li><a href="https://id.wikipedia.org/wiki/Alam_semesta">Alam Semesta</a></li>
+                </ul>
+            </ul>
+        </div>
+        <div class="kanan night-mode-available">
+            <form>
+                <input class="search" type="text" placeholder="Cari disini.." required>
+                <input class="button" type="button" value="Cari">
+            </form>
+            <ul>
+                <p class="populer night-mode-available">Popular Post</p>
+                <h class="populer1"><a href="https://bit.ly/39rlgt1">Terungkapnya Galaksi Monster pada Masa Awal Alam
+                        Semesta</a></h>
+                <img class="gambarkanan" src="image/galaksi.jpg" />
+                <h class="populer2"><a href="https://bit.ly/39r3iH7">Rekor di Alam Semesta, Ini 5 Daftar Objek Terbesar
+                        di Jagat Raya</a></h>
+                <img class="gambarkanan2" src="image/luar angkasa.jpg" />
+            </ul>
+        </div>
+        <div class="tengah night-mode-available">
+            <article>
+                <ul>
+                    <h2 class="artikel">BIMA SAKTI</h2>
+                    <img class="gambartengah" src="image/bg.jpg" />
+                    <p class="auth1">Danzerdd 29/03/2021 12:00 AM</p>
+                    <p class="teks1">Bima Sakti (bentuk yang sering digunakan oleh ahli astronomi) atau Bimasakti
+                        (bentuk baku menurut KBBI) adalah galaksi spiral yang besar, yang di dalamnya terdapat Tata
+                        Surya, tempat planet Bumi beredar mengelilingi matahari. Galaksi ini termasuk dalam tipe Hubble
+                        SBbc dengan total massa sekitar satu triliun kali massa matahari serta memiliki diameter 100.000
+                        tahun cahaya dan ketebalan 1.000 tahun cahaya. <a href="https://id.wikipedia.org/wiki/Bima_Sakti">Read More >></a>
+                    </p>
+                </ul>
+                <hr class="garis1">
+            </article>
+            <article>
+                <ul>
+                    <h2 class="artikel2">ANDROMEDA</h2>
+                    <img class="gambartengah2" src="image/andromeda.jpg" />
+                    <p class="auth2">Danzerdd 29/03/2021 12:00 AM</p>
+                    <p class="teks2">Galaksi Andromeda (nama lain, Messier 31 dan NGC 224) adalah sebuah galaksi spiral
+                        yang berjarak kira-kira 2,5 juta tahun cahaya dari bumi. Galaksi ini merupakan salah satu
+                        galaksi di luar galaksi Bima Sakti yang dapat dilihat dengan mata telanjang pada malam yang
+                        cerah, tanpa bulan, dan tanpa polusi cahaya. <a href="https://id.wikipedia.org/wiki/Galaksi_Andromeda">Read More >></a>
+                    </p>
+                </ul>
+                <hr class="garis2">
+            </article>
+            <article>
+                <ul>
+                    <h2 class="artikel3">BLACK EYE</h2>
+                    <img class="gambartengah3" src="image/blackeye.jpeg" />
+                    <p class="auth3">Danzerdd 29/03/2021 12:00 AM</p>
+                    <p class="teks3">Galaksi Mata Hitam (juga disebut Messier 64, M64, atau NGC 4826) ditemukan oleh
+                        Edward Pigott pada 23 Maret 1779, dan secara independen oleh Johann Elert Bode pada tanggal 4
+                        April tahun yang sama, serta oleh Charles Messier pada tahun 1780. Galaksi ini memiliki sebuah
+                        jalur debu penyerap gelap yang spektakuler di depan inti cerah galaksi, sehingga menimbulkan
+                        julukan "Mata Hitam" atau "Mata Setan". <a href="https://id.wikipedia.org/wiki/Galaksi_Mata_Hitam">Read More >></a>
+                    </p>
+                </ul>
+            </article>
+        </div>
+
+    </section>
+    <footer class= "footer night-mode-available">
+        <a href="https://www.facebook.com/danzlan/" class="swipebox" title="My Facebook Profile"><img src="image/fb.png"
+                alt="My Facebook Profile" class="img-responsive" height="30px" /></a>
+        <a href="https://www.instagram.com/danzerdd/" class="swipebox" title="My Instagram Profile"><img src="image/ig.png"
+                alt="My Instagram Profile" class="img-responsive" height="30px" /></a>
+        <a href="https://www.twitter.com/danzerdd/" class="swipebox" title="My Twitter Profile"><img src="image/tw.png"
+                alt="My Twitter Profile" class="img-responsive" height="30px" /></a>
+        <h5 class="cr">© 2021 <a class="cr2" href="https://www.instagram.com/danzerdd/">Ardana Firmansyah</a></h5>
+
+    </footer>
+</body>
+
+</html>
