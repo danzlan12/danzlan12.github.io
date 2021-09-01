@@ -10,14 +10,14 @@
           y="68%"
           class="webcoderskull"
           >
-          
+     ARDANA     
     </text>
     <text text-anchor="middle"
           x="50%"
           y="68%"
           class="text--line"
           >
-     ARDANA FIRMANSYAH
+     
     </text>
     
   </symbol>
